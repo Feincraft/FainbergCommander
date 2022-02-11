@@ -1,0 +1,6 @@
+SET FinalCommand TO Command
+IF VmType = $'''Ubuntu LTS''' THEN
+    SET FinalCommand TO $'''multipass exec primary %Command%'''
+END
+Scripting.RunDOSCommand.RunDOSCommand DOSCommandOrApplication: FinalCommand WorkingDirectory: $'''C:\\Program Files\\Multipass\\bin''' StandardOutput=> CommandOutput StandardError=> CommandErrorOutput ExitCode=> CommandExitCode
+SET Result TO CommandOutput
