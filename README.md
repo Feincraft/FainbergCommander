@@ -11,3 +11,4 @@ This is a concept app demonstrating how hybrid cloud applications can be created
 
 * On-Premises Data Gateway: https://docs.microsoft.com/en-us/data-integration/gateway/
 
+* To import a Desktop flow from file, create a new flow, copy all the text from the file and paste into the Power Platform Desktop designer
