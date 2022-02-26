@@ -1,5 +1,5 @@
 # FainbergCommander
-(![image](https://user-images.githubusercontent.com/32096531/153534615-052295ff-aa7d-4aaa-b1c2-803312abc815.png)
+![image](https://user-images.githubusercontent.com/32096531/153534615-052295ff-aa7d-4aaa-b1c2-803312abc815.png)
 
 This is a concept app demonstrating how hybrid cloud applications can be created with the Power Platform.
 
